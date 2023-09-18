@@ -1,4 +1,4 @@
-Calculator
+MATH-APP
 
 <a name="Richard Sikaonga"></a>
 
