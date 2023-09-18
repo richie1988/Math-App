@@ -32,7 +32,7 @@ MATH-APP
 
 # 📖 [Calculator] <a name="about-project"></a>
 
-This is the web application app that will help other developer get motivated on creating the API apps and movie sites.
+This is the web Math Calculation  app that will help other developer get motivated on creating the react and  API apps .
 Its Mobile vision app and can be accessed on the Mobile devices and Desktop
 
 **[Mobile portfolio app]** is a Mobile vision app that makes easier for Developers to chocase there projects
@@ -53,7 +53,7 @@ so that other developer's can find them or see what the have built.
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://www.javascript.com/">ES6</a></li>
     <li><a href="https://webpack.js.org/">React</a></li>
-    <li><a href="https://www.themealdb.com/api.php">javascript</a></li>
+    <li><a href="https://www.themealdb.com/api.php"></a></li>
   </ul>
 </details>
 
@@ -93,7 +93,7 @@ Clone this repository to your desired folder:
 cd my-folder
 Clone this repository to your desired folder:
 run:
-git clone (https://github.com/richie1988/KanbanCapstone)
+git clone (https://github.com/richie1988/Math-App.git)
 
 ### Install
 Install the prerequisites this project using:
@@ -154,7 +154,7 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/richie1988/KanbanCapstone/issues).
+Feel free to check the [issues page](https://github.com/richie1988/Math-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
