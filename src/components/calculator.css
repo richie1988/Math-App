@@ -22,7 +22,7 @@ body {
   }
 
 .calculator h2 {
-  margin: 30px;
+  margin: 16px;
 }
 
  .buttons {
@@ -68,6 +68,28 @@ body {
   background-color: rgb(31, 168, 145);
 }
 
+.quote-display {
+  width: 300px;
+  height: auto;
+  padding: 12px;
+  gap: 5px;
+  background-color: aqua;
+  border: 1px solid gray;
+  margin: auto;
+}
+
+.quotes {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(67, 73, 68);
+}
+
+.author {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(230, 52, 82);
+}
+
 @media only screen and (min-width: 768px) {
   #indexzero {
     flex: 0 0 50%;
@@ -83,5 +105,18 @@ body {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+    }
+
+    .quote-display {
+      position: absolute;
+      top: 60%;
+      left: 39%;
+      width: 300px;
+      height: auto;
+      padding: 12px;
+      gap: 5px;
+      background-color: aqua;
+      border: 1px solid gray;
+      margin: auto;
     }
 }
