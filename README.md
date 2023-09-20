@@ -137,8 +137,8 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 👤 **Author**
  **Richard Sikaonga**
 - GitHub: [@githubhandle](https://github.com/richie1988)
-- Twitter: [@twitterhandle](@Richiesikaonga)
-- LinkedIn: [LinkedIn](in/richard-sikaonga-039940275)
+- Twitter: [@twitterhandle](https://twitter.com/RichieSikaonga)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-sikaonga-039940275/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
