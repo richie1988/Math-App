@@ -1,64 +1,53 @@
 import React, { useState } from 'react';
 import Button from './buttons';
+import calculate from '../logic/calculate';
 
 function Calculator() {
-  const [input, setInput] = useState('');
-  const [result, setResult] = useState('');
+  const [calculatorData, setCalculatorData] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  // Function to handle button clicks
-  const handleButtonClick = (value) => {
-    if (value === '=') {
-      try {
-        // eslint-disable-next-line no-eval
-        setResult(eval(input).toString());
-      } catch (error) {
-        setResult('Error');
-      }
-      setInput('');
-    } else if (value === 'AC') {
-      setInput('');
-      setResult('');
-    } else {
-      setInput(input + value);
-    }
+  const handleButtonClick = (buttonName) => {
+    const newData = calculate(calculatorData, buttonName);
+    setCalculatorData(newData);
   };
+
+  // Extract input and result from calculatorData
+  const input = calculatorData.next || calculatorData.total || '0';
+  const result = calculatorData.total || '';
+
+  // Define the button labels and layout
+  const buttonLayout = [
+    ['AC', '+/-', '%', '÷'],
+    ['7', '8', '9', 'x'],
+    ['4', '5', '6', '-'],
+    ['1', '2', '3', '+'],
+    ['0', '.', '='],
+  ];
 
   return (
     <div className="calculator">
+      <h2>The Math Magician</h2>
       <div className="inputsection">
         <div className="input">{input}</div>
         <div className="result">{result}</div>
       </div>
       <div className="buttons">
-        <div className="button-row">
-          <Button onClick={handleButtonClick}>AC</Button>
-          <Button onClick={handleButtonClick}>+/-</Button>
-          <Button onClick={handleButtonClick}>%</Button>
-          <Button onClick={handleButtonClick}>÷</Button>
-        </div>
-        <div className="button-row">
-          <Button onClick={handleButtonClick}>7</Button>
-          <Button onClick={handleButtonClick}>8</Button>
-          <Button onClick={handleButtonClick}>9</Button>
-          <Button onClick={handleButtonClick}>x</Button>
-        </div>
-        <div className="button-row">
-          <Button onClick={handleButtonClick}>4</Button>
-          <Button onClick={handleButtonClick}>5</Button>
-          <Button onClick={handleButtonClick}>6</Button>
-          <Button onClick={handleButtonClick}>-</Button>
-        </div>
-        <div className="button-row">
-          <Button onClick={handleButtonClick}>1</Button>
-          <Button onClick={handleButtonClick}>2</Button>
-          <Button onClick={handleButtonClick}>3</Button>
-          <Button onClick={handleButtonClick}>+</Button>
-        </div>
-        <div className="button-row">
-          <Button onClick={handleButtonClick} id="indexzero">0</Button>
-          <Button onClick={handleButtonClick}>.</Button>
-          <Button onClick={handleButtonClick}>=</Button>
-        </div>
+        {buttonLayout.map((row) => (
+          <div className="button-row" key={`row-${row.join('-')}`}>
+            {row.map((buttonLabel) => (
+              <Button
+                key={`${buttonLabel}`}
+                onClick={() => handleButtonClick(buttonLabel)}
+                id={buttonLabel === '0' ? 'indexzero' : ''}
+              >
+                {buttonLabel}
+              </Button>
+            ))}
+          </div>
+        ))}
       </div>
     </div>
   );

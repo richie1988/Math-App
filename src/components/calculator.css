@@ -21,6 +21,10 @@ body {
   padding: 10px;
   }
 
+.calculator h2 {
+  margin: 30px;
+}
+
  .buttons {
     background-color: blue;
     width: 100%;
@@ -39,7 +43,7 @@ body {
 .result,
 .input {
   margin-right: 8px;
-  padding-top: 8px;
+  padding-top: 2px;
 }
 
 .button-row {
