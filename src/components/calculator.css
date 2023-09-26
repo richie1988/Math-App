@@ -14,7 +14,54 @@ body {
   justify-content: center;
 }
 
+.nav-container {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(243, 143, 143);
+}
+
+.nav-container h2 {
+  font-size: 18px;
+  margin: auto 10px;
+}
+
+.nav-bar {
+  display: flex;
+  font-size: 16px;
+  gap: 2px;
+  color: rgb(247, 247, 239);
+}
+
+.nav-item {
+  margin-left: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-page {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.article {
+  display: block;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
 .calculator {
+  position: absolute;
+  top: 10%;
+  left: 0;
   width: 100%;
   height: auto;
   text-align: center;
@@ -23,6 +70,7 @@ body {
 
 .calculator h2 {
   margin: 16px;
+  margin-top: 5rem;
 }
 
  .buttons {
@@ -69,7 +117,9 @@ body {
 }
 
 .quote-display {
-  width: 300px;
+  position: absolute;
+  top: 30%;
+  width: 100%;
   height: auto;
   padding: 12px;
   gap: 5px;
@@ -95,6 +145,43 @@ body {
     flex: 0 0 50%;
   }
 
+  .nav-container h2 {
+    font-size: 29px;
+    margin-left: 8.5rem;
+  }
+
+  .nav-bar {
+    display: flex;
+    margin: auto 30px;
+    font-size: 22px;
+    gap: 5px;
+    color: rgb(247, 247, 239);
+  }
+
+  .nav-item {
+    margin-left: 16px;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .home-page {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article {
+    display: block;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+  }
+
   .calculator {
     position: absolute;
     top: 50%;
@@ -107,12 +194,17 @@ body {
     padding: 20px;
     }
 
+    .calculator h2 {
+      display: flex;
+      margin: 16px;
+      margin-top: 5rem;
+    }
+
     .quote-display {
       position: absolute;
-      top: 60%;
-      left: 39%;
-      width: 300px;
-      height: auto;
+      left: 30%;
+      width: 600px;
+      height: 300px;
       padding: 12px;
       gap: 5px;
       background-color: aqua;

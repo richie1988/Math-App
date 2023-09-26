@@ -10,7 +10,7 @@ function QuoteDisplay() {
 
   useEffect(() => {
     const category = 'happiness';
-    const apiKey = 'hgmR6sJjdWBlUEdQfdIhgISmu1DwpTYf7U8jqYUr';
+    const apiKey = '0fW0OwmwppbhlEONye6eofF6TI6UZaeMBfKuoKZ7';
 
     // Construct the API URL with the category
     const apiUrl = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
@@ -54,7 +54,7 @@ function QuoteDisplay() {
   } = quoteData;
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="error-message">Loading...</div>;
   }
 
   if (error) {
