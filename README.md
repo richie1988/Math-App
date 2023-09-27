@@ -1,4 +1,4 @@
-Calculator
+MATH-APP
 
 <a name="Richard Sikaonga"></a>
 
@@ -29,11 +29,11 @@ Calculator
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-<!-- PROJECT DESCRIPTION -->
+  <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Calculator] <a name="about-project"></a>
 
-This is the web application app that will help other developer get motivated on creating the API apps and movie sites.
+This is the web Math Calculation app that will help other developer get motivated on creating the react and API apps .
 Its Mobile vision app and can be accessed on the Mobile devices and Desktop
 
 **[Mobile portfolio app]** is a Mobile vision app that makes easier for Developers to chocase there projects
@@ -46,7 +46,9 @@ so that other developer's can find them or see what the have built.
 - [x] ES6
 - [x] React
 - [x] javascript
+
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -54,10 +56,9 @@ so that other developer's can find them or see what the have built.
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://www.javascript.com/">ES6</a></li>
     <li><a href="https://webpack.js.org/">React</a></li>
-    <li><a href="https://www.themealdb.com/api.php">javascript</a></li>
+    <li><a href="https://www.themealdb.com/api.php"></a></li>
   </ul>
 </details>
-
 
 ### Key Feature <a name="key-features"></a>
 
@@ -65,13 +66,13 @@ so that other developer's can find them or see what the have built.
 - **[website.]**
 - **[]**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo 
 <a href="https://richie1988.github.io/Math-App/">check it out <a name="live-demo"></a>
 
 ## 📹 Video Presentation <a name="video-presentation"></a>
+
 - Coming Soon
 - [Video Presentation]
 
@@ -90,38 +91,49 @@ desktop-computer/laptop
 any text editor installed inside
 
 ### Setup
+
 Clone this repository to your desired folder:
-```sh
+
+````sh
 cd my-folder
 Clone this repository to your desired folder:
 run:
-git clone (https://github.com/richie1988/KanbanCapstone)
+git clone (https://github.com/richie1988/Math-App.git)
 
 ### Install
 Install the prerequisites this project using:
 ```sh
 cd Restaurant-System
-```
+````
+
 ```bash
 npm start
 ```
 
 ### Usage
+
 To run the project:
+
 ```bash
 npm install
 ```
+
 ### Run tests
+
 To run tests after setting up the linters, run the following command:
+
 ```sh
 npx hint .
 ```
+
 ```sh
 npx stylelint "**/*.{css,scss}"
 ```
+
 ```bash
 npx eslint .
 ```
+
 ### Deployment
 
 You can deploy this project using:
@@ -137,10 +149,17 @@ You can deploy this project using:
 I would like Thank Microverse Team and my Collabaration partners whom they have paired me for the entire project the contributed there knowledge and ideas towards the Contact form part for this projects.
 
 👤 **Author**
- **Richard Sikaonga**
+**Richard Sikaonga**
+
 - GitHub: [@githubhandle](https://github.com/richie1988)
-- Twitter: [@twitterhandle](@Richiesikaonga)
-- LinkedIn: [LinkedIn](in/richard-sikaonga-039940275)
+- Twitter: [@twitterhandle](https://twitter.com/RichieSikaonga)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-sikaonga-039940275/)
+
+👤 **Hamza Baig**
+
+- GitHub: [@hamzabaig](https://github.com/hamzaw9)
+- Twitter: [@hamzabaig](https://twitter.com/hamzabaig059)
+- LinkedIn: [@hamzabaig](https://www.linkedin.com/in/hamzabaig-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +175,7 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/richie1988/KanbanCapstone/issues).
+Feel free to check the [issues page](https://github.com/richie1988/Math-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,4 +195,5 @@ I would like to thank the Microverse Team and the founder of Microverse for the 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
