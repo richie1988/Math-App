@@ -27,10 +27,12 @@ test('passes children as an argument to the onClick function', () => {
 });
 
 test('renders with custom id and className', () => {
-  render(<Button onClick={() => {}} id="custom-button" className="custom">Custom Button</Button>);
+  render(
+    <Button onClick={() => {}} id="custom-button" className="custom">
+      Custom Button
+    </Button>
+  );
   const buttonElement = screen.getByText('Custom Button');
   expect(buttonElement).toHaveAttribute('id', 'custom-button');
   expect(buttonElement).toHaveClass('custom');
 });
-
-// Add more test cases to cover different scenarios and props.
