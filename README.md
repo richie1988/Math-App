@@ -15,6 +15,7 @@ Calculator
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Feature ](#key-feature-)
+  - [🚀 Live Demo](#-live-demo)
   - [📹 Video Presentation ](#-video-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -67,7 +68,8 @@ so that other developer's can find them or see what the have built.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+## 🚀 Live Demo 
+<a href="https://richie1988.github.io/Math-App/">check it out <a name="live-demo"></a>
 
 ## 📹 Video Presentation <a name="video-presentation"></a>
 - Coming Soon
