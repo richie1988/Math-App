@@ -12,7 +12,9 @@ test('renders loading message initially', () => {
 
 test('renders error message when there is an error', async () => {
   // Mock a network error by providing an invalid API key
-  jest.spyOn(global, 'fetch').mockRejectedValueOnce(new Error('Failed to fetch data'));
+  jest
+    .spyOn(global, 'fetch')
+    .mockRejectedValueOnce(new Error('Failed to fetch data'));
 
   await act(async () => {
     render(<QuoteDisplay />);
@@ -49,7 +51,6 @@ test('renders quote and author when data is loaded', async () => {
 });
 
 test('renders "Quote of the Day" as the header', async () => {
-  // Mock a successful API response
   const mockApiResponse = [
     {
       quote: 'Test Quote',
@@ -66,7 +67,6 @@ test('renders "Quote of the Day" as the header', async () => {
     render(<QuoteDisplay />);
   });
 
-  // Wait for the component to load
   const headerElement = screen.getByText('Quote of the Day');
 
   expect(headerElement).toBeInTheDocument();

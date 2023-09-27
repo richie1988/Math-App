@@ -30,7 +30,7 @@ test('renders with custom id and className', () => {
   render(
     <Button onClick={() => {}} id="custom-button" className="custom">
       Custom Button
-    </Button>
+    </Button>,
   );
   const buttonElement = screen.getByText('Custom Button');
   expect(buttonElement).toHaveAttribute('id', 'custom-button');
