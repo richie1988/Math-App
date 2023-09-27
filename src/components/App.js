@@ -7,7 +7,7 @@ import './calculator.css';
 import QuoteDisplay from './QuoteDisplay';
 import Home from './Home';
 
-function Header() {
+export function Header() {
   return (
     <div className="nav-container">
       <h2>My Mathematics Magician</h2>

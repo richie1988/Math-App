@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   height: 70px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(243, 143, 143);
+  background-color: rgb(243 143 143);
 }
 
 .nav-container h2 {
@@ -31,7 +31,7 @@ body {
   display: flex;
   font-size: 16px;
   gap: 2px;
-  color: rgb(247, 247, 239);
+  color: rgb(247 247 239);
 }
 
 .nav-item {
@@ -84,8 +84,8 @@ body {
   padding: 10px 0;
   font-size: 24px;
   text-align: end;
-  background-color: rgb(129, 127, 127);
-  color: rgb(252, 247, 242);
+  background-color: rgb(129 127 127);
+  color: rgb(252 247 242);
 }
 
 .result,
@@ -103,17 +103,17 @@ body {
  width: 100%;
   font-size: 18px;
   padding: 10px;
-  border: 1px solid rgb(204, 204, 204);
+  border: 1px solid rgb(204 204 204);
   cursor: pointer;
 }
 
 .button-row button:last-child {
-    background-color: rgb(240, 121, 43);
-    color: rgb(36, 34, 34);
+    background-color: rgb(240 121 43);
+    color: rgb(36 34 34);
 }
 
 .button:hover {
-  background-color: rgb(31, 168, 145);
+  background-color: rgb(31 168 145);
 }
 
 .quote-display {
@@ -131,16 +131,16 @@ body {
 .quotes {
   font-size: 15px;
   font-weight: 600;
-  color: rgb(67, 73, 68);
+  color: rgb(67 73 68);
 }
 
 .author {
   font-size: 19px;
   font-weight: 600;
-  color: rgb(230, 52, 82);
+  color: rgb(230 52 82);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (width >= 768px) {
   #indexzero {
     flex: 0 0 50%;
   }
@@ -155,7 +155,7 @@ body {
     margin: auto 30px;
     font-size: 22px;
     gap: 5px;
-    color: rgb(247, 247, 239);
+    color: rgb(247 247 239);
   }
 
   .nav-item {
