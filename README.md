@@ -15,6 +15,7 @@ MATH-APP
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Feature ](#key-feature-)
+  - [🚀 Live Demo Live](#-live-demo-live)
   - [📹 Video Presentation ](#-video-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -28,7 +29,6 @@ MATH-APP
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
-  <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Calculator] <a name="about-project"></a>
 
@@ -67,7 +67,7 @@ so that other developer's can find them or see what the have built.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
+ ## 🚀 Live Demo <a href="https://richard-math-app.onrender.com/" name="live-demo">Live</a>
 
 ## 📹 Video Presentation <a name="video-presentation"></a>
 
