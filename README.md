@@ -69,7 +69,7 @@ so that other developer's can find them or see what the have built.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo 
-<a href="https://richie1988.github.io/Math-App/">check it out <a name="live-demo"></a>
+<a href="https://richard-math-app.onrender.com/">check it out <a name="live-demo"></a>
 
 ## 📹 Video Presentation <a name="video-presentation"></a>
 
